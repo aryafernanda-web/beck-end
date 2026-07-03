@@ -1,0 +1,18 @@
+# JANGAN pernah upload file kredensial ke GitHub!
+config.json
+
+# Exclude large binary files
+ngrok.exe
+
+# Exclude temporary status and counter files
+status.json
+sync_counter_*.json
+paket_db.json
+notion_props.json
+last_customer_detail.html
+
+# Exclude logs
+*.log
+
+# Exclude scratch directory containing temp scripts
+scratch/
